@@ -1,0 +1,152 @@
+body {
+    background: url(../images/bg-body.png);
+    background-size: cover;
+    min-width: 1200px;
+}
+
+/* Header */
+#header {
+    margin: 0 auto 115px;
+    width: 1000px;
+    padding-top: 36px;
+}
+#header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.logo {
+    width:166px;
+    height: 72px;
+    background: url(../images/bg-logo-02.png);
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.logo a {
+    display: block;
+    height: 100%;
+}
+#nav li {
+    display: inline;
+    font: 13px sans-serif;
+    padding: 0 10px;
+}
+#nav {
+    float: right;
+    margin-top: 57px;
+    width: 750px;
+}
+li a {
+    text-shadow: -1px 1px 2px gray;
+    color: transparent;
+}
+li a:hover {
+    text-shadow: none;
+    color: #000;
+}
+
+/* End header */
+
+/* Main content*/
+#wrapper {margin: 0 auto 45px;}
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+#content {
+    width: 65%;
+    float: left;
+}
+#content p {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 13px;
+}
+#sidebar {
+    float: right;
+    width: 25%;
+}
+h1 {
+     font: 27px 'Open Sans' sans-serif;
+     margin: 0 auto 30px;
+ }
+h2 {
+      font: 18px 'Open Sans' sans-serif;
+      border-bottom: 1px solid #000000;
+      line-height: 1.5;
+      margin-bottom: 38px;
+    padding-bottom: 10px;
+  }
+h3 {
+    font: bold 13px/1.5 'Open Sans' sans-serif;
+    color: #3a9646;
+    margin-bottom: 0;
+    }
+.leftimg {
+    float: left;
+    margin: 0 18px 0 0;
+    max-width: 500px;
+}
+#content, #sidebar {
+    font: 14px/150% 'Open Sans' sans-serif;
+}
+#sidebar ul li::before {
+    content: "• ";
+}
+#sidebar ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#sidebar ul {padding: 0;}
+#sidebar p, #sidebar ul {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+
+
+/* Footer */
+#footer {
+    background: #504f4f;
+    color: #a5a4a4;
+    font: 13px 'Open Sans' sans-serif;
+}
+
+select {
+    float: right;
+    border: none;
+    background: none;
+    color: #a5a4a4;
+    margin-top: 35px;
+    outline: none;
+}
+
+select:visited {
+    border: none;
+    background: transparent;
+}
+
+#footer p {
+    float: left;
+    line-height: 1.3;
+    width: 630px;
+    padding: 30px 0 22px;
+    margin: 0 auto;
+}
+
+#footer p a {
+    color: #a5a4a4;
+}
+
+/* End footer */
+
+
