@@ -1,1 +1,2 @@
-Simple page with shadow-style navigation, sidebar and footer
+One of the pages, is designed as a training mission. Made navigation menu, content, sidebar.
+
