@@ -1,0 +1,1 @@
+Simple page with shadow-style navigation, sidebar and footer

@@ -18,7 +18,7 @@ body {
 .logo {
     width:166px;
     height: 72px;
-    background: url(../images/bg-logo-02.png);
+    background: url(../images/bg-logo.png);
     text-indent: -9999px;
     overflow: hidden;
 }
@@ -48,6 +48,9 @@ li a:hover {
 /* End header */
 
 /* Main content*/
+h1, h2, #footer {
+    font-family: 'Open Sans', sans-serif;
+}
 #wrapper {margin: 0 auto 45px;}
 
 
@@ -74,18 +77,18 @@ li a:hover {
     width: 25%;
 }
 h1 {
-     font: 27px 'Open Sans' sans-serif;
+     font-size: 27px;
      margin: 0 auto 30px;
  }
 h2 {
-      font: 18px 'Open Sans' sans-serif;
+      font-size: 18px;
       border-bottom: 1px solid #000000;
       line-height: 1.5;
       margin-bottom: 38px;
     padding-bottom: 10px;
   }
 h3 {
-    font: bold 13px/1.5 'Open Sans' sans-serif;
+    font: bold 13px/1.5 'Open Sans', sans-serif;
     color: #3a9646;
     margin-bottom: 0;
     }
@@ -95,7 +98,7 @@ h3 {
     max-width: 500px;
 }
 #content, #sidebar {
-    font: 14px/150% 'Open Sans' sans-serif;
+    font: 14px/150% 'Open Sans', sans-serif;
 }
 #sidebar ul li::before {
     content: "• ";
@@ -118,7 +121,7 @@ h3 {
 #footer {
     background: #504f4f;
     color: #a5a4a4;
-    font: 13px 'Open Sans' sans-serif;
+    font-size: 13px;
 }
 
 select {

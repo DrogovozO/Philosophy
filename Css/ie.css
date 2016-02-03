@@ -7,7 +7,7 @@ li a {
     color: #a5a4a4;
 }
 #content, #wrapper #sidebar {
-    font: 14px/150% 'Open Sans' sans-serif;
+    font: 14px/150% 'Open Sans', sans-serif;
 }
 
 #wrapper ul li {
